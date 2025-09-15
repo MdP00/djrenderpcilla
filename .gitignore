@@ -1,0 +1,53 @@
+# ---- Archivos de Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Archivos de entorno ----
+.env
+*.env
+.env.* 
+
+# ---- Archivos de logs ----
+*.log
+
+# ---- Archivos de base de datos local ----
+db.sqlite3
+db.sqlite3-journal
+
+# ---- Archivos de migraciones compilados ----
+*/migrations/__pycache__/
+# (Puedes ignorar migraciones enteras si no quieres versionarlas,
+# pero normalmente SÍ se suben para mantener el esquema en equipo)
+
+# ---- Archivos de media (subidas de usuario) ----
+media/
+# (si no usas S3 u otro servicio, conviene ignorar esto en producción)
+
+# ---- Archivos estáticos generados ----
+staticfiles/
+static/
+# (si usas collectstatic, no subas los archivos generados, solo el código fuente)
+
+# ---- Archivos de IDE/Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Archivos de dependencias o builds ----
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---- Virtualenv ----
+venv/
+ENV/
+.venv/
+env/
+
+generaclave.py
